@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyaputra - Portfolio Futuristik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="menu-toggle" class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </button>
+
+    <aside id="sidebar-menu" class="sidebar-menu">
+        <div class="sidebar-header">
+            <h3>Navigasi</h3>
+            <button id="close-menu" class="close-btn">&times;</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#about-me">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li class="separator"></li>
+                <li><a href="URL_CV_ANDA.pdf" target="_blank" class="download-link"><i class="fas fa-file-download"></i> Unduh CV</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="particles-js"></div>
+
+    <main class="container">
+
+        <section class="profile-section" id="profile" data-aos="fade-up" data-aos-duration="1000">
+            <div class="profile-photo-wrapper">
+                <img src="foto-satya.jpg" alt="Foto Satya" class="profile-photo">
+            </div>
+            <div class="profile-info">
+                <h1 class="glitch-text" data-text="SATYAPUTRA">SATYAPUTRA</h1>
+                <p class="role-text">Frontend Developer & UI/UX Designer</p>
+                <div class="social-links">
+                    <a href="URL_INSTAGRAM_ANDA" target="_blank" class="social-btn" data-hover-text="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="URL_GITHUB_ANDA" target="_blank" class="social-btn" data-hover-text="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="URL_LINKEDIN_ANDA" target="_blank" class="social-btn" data-hover-text="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about-me" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <p>Halo! Saya Satyaputra, seorang pengembang web yang berfokus pada desain antarmuka dan pengalaman pengguna. Dengan pengalaman lebih dari 3 tahun, saya menguasai teknologi modern seperti **React**, **Vue**, dan **Node.js**. Saya percaya bahwa kombinasi antara desain yang kuat dan kode yang bersih adalah kunci untuk menciptakan pengalaman digital yang luar biasa.</p>
+            </div>
+        </section>
+
+        <section class="skills-section" id="skills" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <span>HTML & CSS</span>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-js-square skill-icon"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-react skill-icon"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <span>Node.js</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Proyek</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-right" data-aos-delay="200">
+                    <img src="https://via.placeholder.com/600x400/292a49/ffffff?text=Proyek+1" alt="Proyek 1" class="project-image">
+                    <div class="project-info">
+                        <h3>Website E-commerce Modern</h3>
+                        <p>Mengembangkan antarmuka pengguna untuk toko online dengan React dan Redux, berfokus pada performa tinggi.</p>
+                        <a href="URL_PROYEK_ANDA_1" target="_blank" class="project-link">Lihat Proyek <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-left" data-aos-delay="300">
+                    <img src="https://via.placeholder.com/600x400/4fc3f7/0d1117?text=Proyek+2" alt="Proyek 2" class="project-image">
+                    <div class="project-info">
+                        <h3>Aplikasi Manajemen Tugas</h3>
+                        <p>Membangun aplikasi web progresif (PWA) untuk manajemen tugas, dengan fungsionalitas offline dan sinkronisasi.</p>
+                        <a href="URL_PROYEK_ANDA_2" target="_blank" class="project-link">Lihat Proyek <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" id="testimonials" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Testimonial</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Kerja sama dengan Satyaputra sangat profesional. Kualitas kode yang bersih dan perhatiannya terhadap detail desain sungguh luar biasa."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50/fff/0d1117?text=R" alt="Reviewer 1">
+                        <div>
+                            <h4>Rizky A.</h4>
+                            <p>CTO, Tech Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Hasil kerja yang memuaskan dan komunikasi yang efektif. Proyek selesai tepat waktu dengan hasil yang melampaui ekspektasi."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50/fff/0d1117?text=A" alt="Reviewer 2">
+                        <div>
+                            <h4>Arina S.</h4>
+                            <p>Founder, Creative Agency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Kontak</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <i class="fas fa-check-circle modal-icon"></i>
+            <h3>Pesan Terkirim!</h3>
+            <p>Terima kasih, pesan Anda telah berhasil dikirim. Saya akan segera menghubungi Anda.</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
