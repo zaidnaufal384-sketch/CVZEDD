@@ -22,6 +22,25 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        
+        /* CSS untuk foto profil */
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #004d99;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         h1 {
             color: #1a1a1a;
             text-align: center;
@@ -39,7 +58,7 @@
             color: #004d99;
             border-bottom: 2px solid #004d99;
             padding-bottom: 5px;
-            margin-top: 30px;
+            margin-top: 15px; /* Mengurangi spasi atas dari 30px menjadi 15px */
         }
 
         ul {
@@ -75,13 +94,15 @@
         .section-content p {
             margin-bottom: 5px;
         }
-        
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Zaid Wildan</h1>
-        <p class="contact-info">0822-8554-1813 | zaidw384@gmail.com | Jakarta Pusat</p>
+        <div class="header">
+            <img src=keren5.jpg alt="Foto Profil" class="profile-picture">
+            <h1>Zaid Wildan</h1>
+            <p class="contact-info">0822-8554-1813 | zaidw384@gmail.com | Jakarta Pusat</p>
+        </div>
 
         <h3>TENTANG SAYA</h3>
         <p>Mahasiswa S1 Sistem Informasi di Telkom University Jakarta yang antusias dan memiliki minat kuat pada dasar-dasar pemrograman dan teknologi. Berkomitmen untuk belajar dan mengembangkan kemampuan teknis serta soft skills untuk berkontribusi di masa depan.</p>
